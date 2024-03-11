@@ -14,8 +14,6 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    
-
 }
 
 .orange {
@@ -24,29 +22,22 @@
     border: 1px dashed black;
     line-height: 2.5rem;
     margin-top: 1.25rem;
-
-
 }
 
 .title-1 {
     width: 15%;
-    padding-left: 0.3rem;
-    
-   
+    padding-left: 0.3rem; 
 }
 
 .title-2 {
     width: 35%;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .title-3 {
     width: 15%;
     text-align: end;
     padding-right: 0.3rem;
-
-  
 }
 
 .blue-block {
@@ -101,10 +92,6 @@ main .row:nth-child(even) {
 
 .row-black {
     background-color: rgb(35, 40, 46);
-    
-    
-    
-
 }
 
 .ultimate-block {
