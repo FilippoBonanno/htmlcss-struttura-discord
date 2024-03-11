@@ -63,11 +63,11 @@
     background-color: rgb(235, 156, 156);
     width: 50%;
     height: 10rem;
+    border: 1px dashed black;
 }
 
 .row {
-    background-color: white;
-    height: 20rem;
+    min-height: 20rem;
     justify-content: center;
     align-items: center;
 }
@@ -76,13 +76,85 @@
     background-color: rgb(135, 167, 228);
     width: 40%;
     height: 15rem;
+    border: 1px dashed black;
 }
 
 .pink-block {
     background-color: rgb(241, 205, 211);
     height: 15rem;
     width: 25%;
+    border: 1px dashed black;
+}
 
+main .row:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.green-block {
+    height: 50rem;
+    width: 65%;
+    background-color: green;
+    border: 1px dashed black;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.row-black {
+    background-color: rgb(35, 40, 46);
+    
+    
+    
 
 }
+
+.ultimate-block {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.viola {
+    background-color: violet;
+    height: 20rem;
+    width: calc(65% / 6 * 2);
+    border: 1px dashed black;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.sky {
+    background-color: rgb(98, 245, 245);
+    height: 20rem;
+    width: calc(65% / 6);
+    border: 1px dashed white;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: 1 solid white;
+}
+
+.row-pulsanti {
+    background-color: rgb(35, 40, 46);
+    justify-content: center;
+    align-items: end;
+}
+
+.pulsanti {
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 4rem;
+    margin-top: 2rem;
+}
+
+[type] {
+    border: 1px dashed black;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+
 
