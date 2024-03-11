@@ -8,11 +8,12 @@
     display: flex;
 }
 
-header {
+.testata {
     background-color: aqua;
     height: 20rem;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     
 
 }
@@ -22,14 +23,14 @@ header {
     height: 2.5rem;
     border: 1px dashed black;
     line-height: 2.5rem;
-    margin-top: 0.5rem;
+    margin-top: 1.25rem;
+
 
 }
 
 .title-1 {
     width: 15%;
-    text-align: start;
-    margin-left: 0.3rem;
+    padding-left: 0.3rem;
     
    
 }
@@ -43,7 +44,45 @@ header {
 .title-3 {
     width: 15%;
     text-align: end;
-    margin-right: 0.3rem;
+    padding-right: 0.3rem;
 
   
 }
+
+.blue-block {
+    background-color: blue;
+    width: 100%;
+    height: 15rem;
+    margin-top: 1.25rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rose-block {
+    background-color: rgb(235, 156, 156);
+    width: 50%;
+    height: 10rem;
+}
+
+.row {
+    background-color: white;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.crystal-block {
+    background-color: rgb(135, 167, 228);
+    width: 40%;
+    height: 15rem;
+}
+
+.pink-block {
+    background-color: rgb(241, 205, 211);
+    height: 15rem;
+    width: 25%;
+
+
+}
+
